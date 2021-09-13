@@ -12,10 +12,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var quoteLabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
     
-    var quoteList: [Quote] = [Quote.init(quoteName: "발없는 말이 천리간다.1", name: "작가1"),
-                              Quote.init(quoteName: "아니땐 굴뚝에 연기나랴.2", name: "작가2"),
-                              Quote.init(quoteName: "아무도 믿지 마라.3", name: "작가3"),
-                              Quote.init(quoteName: "명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언4", name: "작가4"),
+    var quoteList: [Quote] = [Quote(quoteName: "발없는 말이 천리간다.1", name: "작가1"),
+                              Quote(quoteName: "아니땐 굴뚝에 연기나랴.2", name: "작가2"),
+                              Quote(quoteName: "아무도 믿지 마라.3", name: "작가3"),
+                              Quote(quoteName: "명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언4", name: "작가4"),
                               Quote.init(quoteName: "명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언5", name: "작가5")]
     
     

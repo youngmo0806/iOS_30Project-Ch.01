@@ -8,6 +8,6 @@
 import Foundation
 
 struct Quote {
-    var quoteName: String
-    var name: String
+    let quoteName: String
+    let name: String
 }
