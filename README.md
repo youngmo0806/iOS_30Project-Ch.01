@@ -1,2 +1,3 @@
 # Swift 30Project
-## Ch.01-명언생성기
+## Part2. Basic
+### Ch.01-명언생성기
