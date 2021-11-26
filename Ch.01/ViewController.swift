@@ -17,19 +17,18 @@ class ViewController: UIViewController {
                               Quote(quoteName: "아무도 믿지 마라.3", name: "작가3"),
                               Quote(quoteName: "명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언4", name: "작가4"),
                               Quote.init(quoteName: "명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언명언5", name: "작가5")]
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.quoteLabel.backgroundColor = #colorLiteral(red: 0.9686274529, green: 0.78039217, blue: 0.3450980484, alpha: 1)
         self.nameLabel.backgroundColor = #colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1)
-        print(#function + " == > \(quoteList.count)")
-        
+        print(#function + " 총 저장되어 있는 명언 갯수 == > \(quoteList.count)")
     }
 
 
     @IBAction func create(_ sender: Any) {
         let random = Int(arc4random_uniform(5))
+        print("random Int => \(random)")
         let lowData = quoteList[random]
         
         print(#function + " == > \(lowData.quoteName)")
